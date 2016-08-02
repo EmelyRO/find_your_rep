@@ -1,0 +1,16 @@
+body {
+	background-color:#303F9F;
+	color:#fff;
+}
+
+.jumbotron {
+	background-color:#e60000;
+}
+
+label {
+	color:#e60000;
+}
+
+button {
+	background-color:#D32F2F;
+}
