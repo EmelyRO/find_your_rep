@@ -3,10 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="WhereAreYouLocated.css" rel="stylesheet">
+
+	<title> Where Are You Located? </title>
 
 </head>
 
 <body>
+
 	<!--Basic Nav Bar -->
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -33,15 +38,16 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!-- end of nav bar-->
+ 
+ <h1> Where Are You Located? </h1>
 
 <!-- Form where they input their zipcode -->
-<label> Where are you located? </label>
-<form>
-  Enter Your Zipcode: <br>
-  <input type="text" name="firstname"><br>
-  <input type="submit" value="Submit">
-
-  
+<form class="form-inline" role="form">
+  <div class="form-group">
+    <label for="zipcode"> Enter Your Zipcode </label>
+    <input type="zipcode" class="form-control" id="zipcode">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
 </form>
 <!-- end of form -->
 
